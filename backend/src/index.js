@@ -1,8 +1,8 @@
 import "dotenv/config";
 
-import app from "server.js";
-import initMongoDB from "./src/db/initMongoDB.js";
-import { getEnvVar } from "./src/utils/getEnvVar.js";
+import app from "./app.js";
+import initMongoDB from "./db/initMongoDB.js";
+import { getEnvVar } from "./utils/getEnvVar.js";
 
 const PORT = Number(getEnvVar("PORT", "3000"));
 
