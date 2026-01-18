@@ -19,3 +19,5 @@ export const initMongoDB = async () => {
     throw e;
   }
 };
+
+export default initMongoDB;
